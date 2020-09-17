@@ -20,6 +20,7 @@ var UsersSchema = mongoose.Schema({
   exp : {type : Number},
   iconToken : {type: String},
   highClear : {type : Number},
+  finalNickChanged: {type: String},
   token : {type: String}
 });
 

@@ -37,6 +37,8 @@
       id : {type: String, unique: true}, // ex. id: "shimhg02" 
 
       name: {type: String} // 닉네임
+
+      finalNickChanged {type: String} // 마지막 닉변
       
       token : {type: String}, // 토큰 // ex. token: "akdlszfger12f"
      } 
@@ -59,6 +61,8 @@
       id : {type: String, unique: true}, // ex. id: "shimhg02" 
 
       name: {type: String} // 닉네임
+
+      finalNickChanged {type: String} // 마지막 닉변
       
       token : {type: String}, // 토큰 // ex. token: "akdlszfger12f"
      } 
@@ -69,7 +73,7 @@
 
 
 
-* POST /chang/nick( 자동 로그인 )
+* POST /chang/nick( 닉네임 변경 )
 
 > Params
 
